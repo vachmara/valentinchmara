@@ -1,46 +1,56 @@
 <script setup lang="ts">
-const colorMode = useColorMode()
+const colorMode = useColorMode();
 
-const color = computed(() => colorMode.value === 'dark' ? '#020618' : 'white')
+const color = computed(() =>
+  colorMode.value === "dark" ? "#020618" : "white"
+);
 
 useHead({
   meta: [
-    { charset: 'utf-8' },
-    { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-    { key: 'theme-color', name: 'theme-color', content: color }
+    { charset: "utf-8" },
+    { name: "viewport", content: "width=device-width, initial-scale=1" },
+    { key: "theme-color", name: "theme-color", content: color },
   ],
-  link: [
-    { rel: 'icon', href: '/favicon.ico' }
-  ],
+  link: [{ rel: "icon", href: "/avatar.png" }],
   htmlAttrs: {
-    lang: 'en'
-  }
-})
+    lang: "en",
+  },
+});
+
+const title = "Valentin Chmara - Software Engineer";
+const description =
+  "Welcome to my website! I'm a Software Engineer with a passion for building innovative solutions. Explore my portfolio to see my work and get in touch.";
 
 useSeoMeta({
-  titleTemplate: '%s - Nuxt Portfolio Template',
-  ogImage: 'https://assets.hub.nuxt.com/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJodHRwczovL3BvcnRmb2xpby10ZW1wbGF0ZS5udXh0LmRldiIsImlhdCI6MTc0NTkzNDczMX0.XDWnQoyVy3XVtKQD6PLQ8RFUwr4yr1QnVwPxRrjCrro.jpg?theme=light',
-  twitterImage: 'https://assets.hub.nuxt.com/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJodHRwczovL3BvcnRmb2xpby10ZW1wbGF0ZS5udXh0LmRldiIsImlhdCI6MTc0NTkzNDczMX0.XDWnQoyVy3XVtKQD6PLQ8RFUwr4yr1QnVwPxRrjCrro.jpg?theme=light',
-  twitterCard: 'summary_large_image'
-})
+  title,
+  description,
+  ogTitle: title,
+  ogDescription: description,
+});
+
+defineOgImageComponent("Website");
 
 const [{ data: navigation }, { data: files }] = await Promise.all([
-  useAsyncData('navigation', () => {
-    return Promise.all([
-      queryCollectionNavigation('blog')
-    ])
-  }, {
-    transform: data => data.flat()
-  }),
-  useLazyAsyncData('search', () => {
-    return Promise.all([
-      queryCollectionSearchSections('blog')
-    ])
-  }, {
-    server: false,
-    transform: data => data.flat()
-  })
-])
+  useAsyncData(
+    "navigation",
+    () => {
+      return Promise.all([queryCollectionNavigation("blog")]);
+    },
+    {
+      transform: (data) => data.flat(),
+    }
+  ),
+  useLazyAsyncData(
+    "search",
+    () => {
+      return Promise.all([queryCollectionSearchSections("blog")]);
+    },
+    {
+      server: false,
+      transform: (data) => data.flat(),
+    }
+  ),
+]);
 </script>
 
 <template>
