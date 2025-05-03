@@ -1,83 +1,91 @@
 seo:
-  title: "Emma Thompson - UX/UI Designer"
-  description: "Welcome to my portfolio! I'm Emma Thompson, a UX/UI designer and front-end developer based in Boston. I specialize in creating user-centered digital experiences that are both beautiful and functional."
-title: "Hey, I'm Emma Thompson UX/UI Designer"
-description: "I craft intuitive digital experiences where design meets functionality. Based in Boston, bringing ideas to life through code and creativity."
+  title: "Valentin Chmara - Software Engineer"
+  description: "Welcome to my website! I'm a Software Engineer with a passion for building innovative solutions. Explore my portfolio to see my work and get in touch."
+title: "Hey there, I'm Valentin Chmara"
+description: "I'm a software engineer passionate about technology and innovation. I specialize in building applications and creating seamless user experiences. My goal is to leverage technology to solve real-world problems and make a positive impact. Responsiveness, Communication & Quality are my top priorities."
 hero:
   links:
-    - label: "Use this template"
-      to: https://github.com/nuxt-ui-pro/portfolio
+    - label: "My PRs on GitHub"
+      to: https://prs.valentinchmara.com
       color: "neutral"
+      target: "_blank"
   images:
-    - src: https://picsum.photos/468/468?random=1
-      alt: Random Image 1
-    - src: https://picsum.photos/468/468?random=2
-      alt: Random Image 2
-    - src: https://picsum.photos/468/468?random=3
-      alt: Random Image 3
-    - src: https://picsum.photos/468/468?random=4
-      alt: Random Image 4
-    - src: https://picsum.photos/468/468?random=5
-      alt: Random Image 5
-    - src: https://picsum.photos/468/468?random=6
-      alt: Random Image 6
-    - src: https://picsum.photos/468/468?random=6
-      alt: Random Image 6
-    - src: https://picsum.photos/468/468?random=7
-      alt: Random Image 7
-    - src: https://picsum.photos/468/468?random=8
-      alt: Random Image 8
+    - src: https://supadev.fr/projects/supacodeur.png
+      alt: SupaCodeur
+    - src: https://supadev.fr/projects/rembr.png
+      alt: Rembr
+    - src: https://supadev.fr/projects/vendeo.png
+      alt: Vendeo
+    - src: https://supadev.fr/projects/ambrosia.png
+      alt: Ambrosia
+    - src: https://supadev.fr/projects/bizmapper.png
+      alt: BizMapper
+    - src: https://supadev.fr/projects/magma.png
+      alt: Magma
+    - src: https://supadev.fr/projects/ameo.png
+      alt: Ameo
+    - src: https://supadev.fr/projects/marchandor.png
+      alt: Marchandor
+    - src: https://supadev.fr/projects/flashtoner.png
+      alt: FlashToner
+    - src: https://supadev.fr/projects/telegramfinder.png
+      alt: TelegramFinder
+    - src: https://supadev.fr/projects/cal.png
+      alt: Cal
 about:
   title: "About Me"
   description: |
-    As a UX/UI designer and front-end developer with 6 years of experience, I leverage my Boston University Interactive Design degree to craft user-centered digital experiences.
-    My approach blends creative strategy with technical expertise, transforming concepts into functional, purposeful digital products that seamlessly integrate design and technology.
+    As a software engineer, I thrive on the challenge of solving complex problems and creating innovative solutions. My journey in technology has been driven by a passion for building applications that not only meet user needs but also push the boundaries of what's possible. I believe in the power of collaboration and continuous learning, and I'm always eager to take on new challenges that allow me to grow both personally and professionally.
 experience:
   title: Work Experience
   items:
-    - position: "Brand Designer at"
-      date: "2023 - Present"
+    - position: "Founder at"
+      date: "2021 - Present"
       company:
-        name: Nuxt
-        logo: "i-simple-icons-nuxtdotjs"
-        url: "https://nuxt.com"
-        color: "#00DC82"
-    - position: "Assets Designer at"
-      date: "2022 - 2023"
+        name: SupaDev
+        logo: ""
+        url: "https://supadev.fr"
+        color: "#ff6900"
+    - position: "CTO at"
+      date: "2022 - 2024"
       company:
-        name: Raycast
-        logo: "i-simple-icons-raycast"
-        url: "https://raycast.com"
-        color: "#FF6363"
-    - position: "Senior UX/UI Designer at"
-      date: "2020 - 2021"
+        name: Clairly
+        logo: ""
+        url: "https://clairly.co"
+        color: "#51c878"
+    - position: "Safety Engineer at"
+      date: "2018 - 2021"
       company:
-        name: Linear
-        logo: "i-simple-icons-linear"
-        url: "https://linear.app"
-        color: "#5E6AD2"
+        name: Stellantis
+        logo: ""
+        url: "https://www.stellantis.com"
+        color: "#243783"
 testimonials:
-  - quote: "Emma's approach to UX design completely transformed our product. She has a rare ability to balance beautiful aesthetics with functional simplicity. The redesign not only looked better, but it reduced our customer support tickets by 40% and increased conversion rates across all key metrics."
+  - quote: "Extremely serious work, within deadlines. Valentin is attentive, proactive, and always maintains a positive attitude. I recommend him for your projects."
     author:
-      name: 'Sarah Chen'
-      description: 'Product Director at Bloom Finance'
+      name: "Valentin Guillemain"
+      description: "Founder at E3GO"
       avatar:
-        src: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
-        srcset: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
-  - quote: "Working with Emma was the best decision we made for our startup. She didn't just deliver designs—she challenged our assumptions, conducted thorough user research, and created an experience that truly resonated with our audience. Her technical knowledge of front-end development meant the handoff to our engineering team was seamless."
+        src: "https://supadev.fr/valentin.jpg"
+  - quote: "Valentin is the most hard working and talented developer I’ve ever worked with! He is fast and can bring to reality everything you’re wishing for. He is truly one of the best in his domain. Thank you, Valentin!!"
     author:
-      name: 'Michael Rodriguez'
-      description: 'Co-founder of Wavelength Music'
+      name: "Lana Denina"
+      description: "Founder of The Mona Lana"
       avatar:
-        src: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
-        srcset: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
-  - quote: "Emma stands out in her ability to translate complex sustainability data into intuitive interfaces. Her work on EcoTrack wasn't just visually stunning—it fundamentally changed how our users interact with environmental information. She approaches each problem with both creativity and analytical rigor, which is exactly what we needed."
+        src: "https://supadev.fr/lana.jpg"
+  - quote: "I am delighted to recommend Valentin for his application development expertise. His responsiveness, transparent communication, and attention to quality make him a passionate and reliable professional."
     author:
-      name: 'Dr. Aisha Johnson'
-      description: 'Chief Innovation Officer at GreenTech Solutions'
+      name: "Florent Ferrante"
+      description: "Founder of Cabinet Ferrante"
       avatar:
-        src: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
-        srcset: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
+        src: "https://supadev.fr/florent.jpg"
+  - quote: "Valentin stood out as an extremely serious, dynamic, and reactive professional ✅. He is overflowing with innovative ideas and resources, which greatly contributed to the success of the projects we executed together 🎉"
+    author:
+      name: "Julien Pierre"
+      description: "Founder of Meta-sense"
+      avatar:
+        src: "https://supadev.fr/julien.jpg"
+
 blog:
   title: "Latest Articles"
   description: "Some of my recent thoughts"
@@ -89,10 +97,15 @@ faq:
       questions:
         - label: What services do you offer?
           content: |
-            I specialize in UX/UI design and front-end development. This includes user research, wireframing, interactive prototyping, creating intuitive user interfaces, building responsive websites and web applications (especially with Vue.js/Nuxt.js), and developing design systems. My goal is to create seamless digital experiences from concept to deployment.
-        - label: What is your design process like?
-          content: |
-            My process is collaborative and iterative, typically involving stages like Discovery & Research, Ideation & Prototyping, User Testing, Visual Design, and close collaboration with development teams during implementation. I tailor the process based on project needs, always focusing on user-centered solutions.
+            Here the services I offer:
+
+            - Fullstack Web Development
+            - SaaS Development
+            - Reactive Outsourcing
+            - Tailored Solutions
+            - Consulting
+
+            You can find more details on my [services page](https://supadev.fr/en/services).
         - label: Do you work with startups?
           content: |
             Absolutely! I enjoy working with startups to help shape their product vision and create user-friendly interfaces from the ground up. I can adapt my process to fit the fast-paced startup environment.
@@ -100,13 +113,13 @@ faq:
       questions:
         - label: How much does a project typically cost?
           content: |
-            Project costs vary based on scope, complexity, features, and timeline. For comprehensive UX/UI design and front-end development projects, my engagements typically start around $5,000, with average projects ranging between $8,000 and $25,000. For consulting or specific design tasks, my day rate is $700.
+            Project costs vary based on scope, complexity, features, and timeline. I offer a range of pricing options, including hourly rates and fixed-price contracts. For a more accurate estimate, please reach out with your project details.
         - label: What are your payment terms?
           content: |
-            I generally require a 40% deposit to schedule the project and begin work, with the remaining 60% due upon successful project completion and delivery. I accept payments via bank transfer and Stripe.
+            I generally require a 50% deposit to schedule the project and begin work, with the remaining 50% due upon successful project completion and delivery. I accept payments via bank transfer, cryptocurrency, and PayPal. For larger projects, I can offer flexible payment plans.
         - label: How long does a typical project take?
           content: |
-            Timelines depend heavily on the project's scope and complexity. Smaller projects might take 3-4 weeks, while larger, more involved projects can range from 2 to 4 months. I always provide a detailed timeline estimate after the initial discovery phase.
+            Timelines depend heavily on the project's scope and complexity. Smaller projects might take 1-2 weeks, while larger, more involved projects can range from 2 to 4 months. I always provide a detailed timeline estimate after the initial discovery phase.
         - label: Do you offer retainers or ongoing support?
           content: |
             Yes, for clients needing ongoing design support, feature development, or maintenance, I offer monthly retainer options tailored to specific needs. Let's discuss if this is something you're interested in.
@@ -117,4 +130,4 @@ faq:
             I love the challenge of solving complex problems through design and technology. It's incredibly rewarding to see people interact with something I've created and find it genuinely useful and easy to navigate. Bridging the gap between user needs and technical possibilities is what truly excites me.
         - label: What are your hobbies outside of work?
           content: |
-            When I'm not designing or coding, I enjoy exploring Boston's neighborhoods, trying out new coffee shops, and hiking in the nearby reservations. I'm also passionate about photography and occasionally contribute to open-source projects.
+            When I'm not coding or building a SaaS, I enjoy spending time with my family and friends, playing video games, and exploring new technologies. I also love to travel and experience different cultures. Additionally, I like to stay active by hiking and montainering. And of course, I love to give back to the community, so I'm trying to contribute to open-source projects as much as possible!
