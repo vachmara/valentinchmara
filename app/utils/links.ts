@@ -30,6 +30,7 @@ export const navLinks: NavigationMenuItem[] = [
   {
     label: 'My PRs',
     icon: 'i-lucide-git-pull-request',
+    class: 'hidden md:block',
     to: 'https://prs.valentinchmara.com',
     target: '_blank'
   }
