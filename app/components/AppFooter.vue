@@ -11,6 +11,10 @@ const { footer } = useAppConfig()
       {{ footer.credits }}
     </template>
 
+    <NuxtLink to="https://supadev.fr/en/legal" class="text-xs" target="_blank">
+      Terms of Service
+    </NuxtLink>
+
     <template #right>
       <template v-if="footer?.links">
         <UButton
