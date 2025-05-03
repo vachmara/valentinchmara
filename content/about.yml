@@ -1,27 +1,37 @@
 title: About Me
-description: Learn more about my journey as a Boston-based UX/UI Designer & Front-End Developer, my design philosophy, and my passion for crafting intuitive digital experiences.
+description: Discover my path as a French full-stack web developer, solopreneur, and product builder, passionate about technology and crafting efficient tools and delightful user experiences.
 content: |
-  Hi, I'm **Emma Thompson**, a UX/UI Designer and Front-End Developer based right here in Boston. For the past six years, I've been immersed in the world of digital product creation, focusing on building experiences that are not just functional, but genuinely intuitive and engaging for users.
+  Hi, I'm **Valentin Chmara**, a full-stack web developer and solopreneur from France. I've dedicated my life to making software my passion, but it all started with my curiosity as a **mechatronic engineer**. My deep interest in technology led me through various projects in **robotics**, **cybersecurity**, and **AI** before I fully embraced the world of web development.
+  <br/><br/>
+  My journey into programming began with the [**Root-Me**](https://www.root-me.org/vachmara?lang=en) community when I was in middle school, where I discovered the joy of solving technical challenges through Capture The Flag (CTF) competitions. During my engineering studies, I worked on several exciting robotics projects that taught me how hardware and software intersect to create real-world solutions.
+  <br/><br/>
+  I wasn’t satisfied with just surface-level knowledge in AI and deep learning, so I took things further by following the [**MIT Deep Learning**](https://introtodeeplearning.com/) course online, a resource I still highly recommend.
+  <br/><br/>
+  Over the years, I transitioned from tinkering with tech to building digital products used by real businesses. I founded my own studio, [**Supadev**](https://supadev.fr/en), where I help companies design and build user-focused web applications using tools like **Nuxt**, **Vue**, **Supabase**, and **TypeScript**.
 
-  My path started at **Boston University**, where I earned a degree in Interactive Design. It was there I discovered my dual passion for the visual language of design and the logical puzzle of code. Since then, I've honed my skills in both areas, believing that the best digital products are born from a deep understanding of both aesthetics and implementation.
+  ### My approach
 
-  ### My Design Philosophy
+  My philosophy is to **solve real problems with minimal friction**. I believe that technology should serve clarity, not complexity, and that fast iterations, honest feedback, and sharp UI make all the difference. Whether it's launching a SaaS MVP or creating internal tools that save teams hours a week, I care deeply about delivering value. I favor autonomy, clean interfaces, and purposeful features. I'm especially proud when my work helps small businesses punch above their weight thanks to better tools.
 
-  My design philosophy is rooted in **empathy** and **problem-solving**. I believe great design starts with understanding the 'why' – the user's needs, motivations, and pain points. I use research, iterative prototyping (often with tools like Figma), and user testing to ensure the solutions I build are truly effective.
+  ### What keeps me going
 
-  I strive to create interfaces that feel effortless, where functionality and beauty work hand-in-hand. Whether I'm crafting pixel-perfect UIs or writing clean Vue.js/Nuxt.js code, my focus is always on creating value for the end-user.
+  I'm passionate about **technology**, **entrepreneurship**, **automation**, and **software that works**, not just in theory, but in the wild. I'm constantly experimenting with side projects, from AI-powered platforms to lightweight SaaS solutions. I enjoy wearing many hats and learning by shipping.
 
-  ### What Drives Me
+  ### What I'm Building
 
-  What keeps me excited about this work is the constant learning and the challenge of translating complex ideas into simple, elegant solutions. There's nothing more rewarding than seeing a design come to life and knowing it's making someone's digital interaction easier or more enjoyable.
+  I'm passionate about building products that solve real, tangible problems. I have a strong instinct for spotting inefficiencies or market gaps, then designing tools that bring clarity and value to users.
 
-  ### Beyond the Screen
+  Here are some of my recent projects:
 
-  When I'm not designing or coding, you might find me exploring Boston's latest coffee shops, hiking nearby trails, or occasionally contributing to open-source projects.
+  - [**SupaCodeur**](https://www.supacodeur.fr) - An automation tool designed for freelancers and agencies. It helps streamline prospecting on Codeur.com, saving time and boosting conversion rates.
+  - [**Telegram Finder**](https://www.telegramfinder.io) - A lead enrichment tool that helps you find Telegram usernames from LinkedIn profiles, emails, or phone numbers, ideal for outreach and growth hacking.
 
-  Thanks for stopping by. Feel free to browse my [projects](/projects) or [get in touch](/#contact) if you'd like to collaborate!
-images:
-  - src: https://images.unsplash.com/photo-1744877478622-a78c7a3336f6?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: My coffee workspace
-  - src: https://images.unsplash.com/photo-1744429523595-2c06b8611242?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: My trip to Tokyo
+  I'm also a fan of open source. Just for fun, I built [**Economise**](https://github.com/vachmara/economise) in two days, a quirky recipe generator that suggests meals based on the ingredients you have at home.
+  <br/><br/>
+  Beyond my own tools, I actively contribute to projects I admire like **Nuxt**, **Supabase**, **Cal.com**, and more. Sharing knowledge and improving the tools I use daily is something I truly care about.
+
+  ### Off the Grid
+
+  Outside of coding, you'll find me exploring hiking trails, backpacking internationally, or working on my surf takeoff (still a work in progress). I also love creating tiny digital experiments just for fun.
+
+  Thanks for stopping by. You can check out some of my [projects](https://supadev.fr/en/projects) or [connect with me](https://www.linkedin.com/in/valentin-chmara/) if you have something in mind!
