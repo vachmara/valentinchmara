@@ -118,8 +118,14 @@ function formatDate(dateString: Date): string {
               />
             </ULink>
           </div>
-          <span v-if="eventsInCategory.length === 0" class="text-sm text-muted">
-            No events yet! <ULink inactive-class=" text-primary" :to="`mailto:${global.email}`">Contact me</ULink> if you want to invite me to speak.
+          <span
+            v-if="eventsInCategory.length === 0"
+            class="text-sm text-muted"
+          >
+            No events yet! <ULink
+              inactive-class=" text-primary"
+              :to="`mailto:${global.email}`"
+            >Contact me</ULink> if you want to invite me to speak.
           </span>
         </div>
       </div>

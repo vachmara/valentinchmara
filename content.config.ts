@@ -1,11 +1,11 @@
-import { defineCollection, defineContentConfig, z } from "@nuxt/content";
-import { asSeoCollection } from "@nuxtjs/seo/content";
+import { defineCollection, defineContentConfig, z } from '@nuxt/content'
+import { asSeoCollection } from '@nuxtjs/seo/content'
 
 const createBaseSchema = () =>
   z.object({
     title: z.string(),
-    description: z.string(),
-  });
+    description: z.string()
+  })
 
 const createButtonSchema = () =>
   z.object({
@@ -13,20 +13,20 @@ const createButtonSchema = () =>
     icon: z.string().optional(),
     to: z.string().optional(),
     color: z
-      .enum(["primary", "neutral", "success", "warning", "error", "info"])
+      .enum(['primary', 'neutral', 'success', 'warning', 'error', 'info'])
       .optional(),
-    size: z.enum(["xs", "sm", "md", "lg", "xl"]).optional(),
+    size: z.enum(['xs', 'sm', 'md', 'lg', 'xl']).optional(),
     variant: z
-      .enum(["solid", "outline", "subtle", "soft", "ghost", "link"])
+      .enum(['solid', 'outline', 'subtle', 'soft', 'ghost', 'link'])
       .optional(),
-    target: z.enum(["_blank", "_self"]).optional(),
-  });
+    target: z.enum(['_blank', '_self']).optional()
+  })
 
 const createImageSchema = () =>
   z.object({
-    src: z.string().editor({ input: "media" }),
-    alt: z.string(),
-  });
+    src: z.string().editor({ input: 'media' }),
+    alt: z.string()
+  })
 
 const createAuthorSchema = () =>
   z.object({
@@ -35,25 +35,25 @@ const createAuthorSchema = () =>
     username: z.string().optional(),
     twitter: z.string().optional(),
     to: z.string().optional(),
-    avatar: createImageSchema().optional(),
-  });
+    avatar: createImageSchema().optional()
+  })
 
 const createTestimonialSchema = () =>
   z.object({
     quote: z.string(),
-    author: createAuthorSchema(),
-  });
+    author: createAuthorSchema()
+  })
 
 export default defineContentConfig({
   collections: {
     index: defineCollection(
       asSeoCollection({
-        type: "page",
-        source: "index.yml",
+        type: 'page',
+        source: 'index.yml',
         schema: z.object({
           hero: z.object({
             links: z.array(createButtonSchema()),
-            images: z.array(createImageSchema()),
+            images: z.array(createImageSchema())
           }),
           about: createBaseSchema(),
           experience: createBaseSchema().extend({
@@ -64,11 +64,11 @@ export default defineContentConfig({
                 company: z.object({
                   name: z.string(),
                   url: z.string(),
-                  logo: z.string().editor({ input: "icon" }),
-                  color: z.string(),
-                }),
+                  logo: z.string().editor({ input: 'icon' }),
+                  color: z.string()
+                })
               })
-            ),
+            )
           }),
           testimonials: z.array(createTestimonialSchema()),
           blog: createBaseSchema(),
@@ -79,63 +79,63 @@ export default defineContentConfig({
                 questions: z.array(
                   z.object({
                     label: z.string().nonempty(),
-                    content: z.string().nonempty(),
+                    content: z.string().nonempty()
                   })
-                ),
+                )
               })
-            ),
-          }),
-        }),
+            )
+          })
+        })
       })
     ),
     blog: defineCollection(
       asSeoCollection({
-        type: "page",
-        source: "blog/*.md",
+        type: 'page',
+        source: 'blog/*.md',
         schema: z.object({
           minRead: z.number(),
           date: z.date(),
-          image: z.string().nonempty().editor({ input: "media" }),
-          author: createAuthorSchema(),
-        }),
+          image: z.string().nonempty().editor({ input: 'media' }),
+          author: createAuthorSchema()
+        })
       })
     ),
     pages: defineCollection(
       asSeoCollection({
-        type: "page",
-        source: [{ include: "blog.yml" }],
+        type: 'page',
+        source: [{ include: 'blog.yml' }],
         schema: z.object({
-          links: z.array(createButtonSchema()),
-        }),
+          links: z.array(createButtonSchema())
+        })
       })
     ),
     speaking: defineCollection(
       asSeoCollection({
-        type: "page",
-        source: "speaking.yml",
+        type: 'page',
+        source: 'speaking.yml',
         schema: z.object({
           links: z.array(createButtonSchema()),
           events: z.array(
             z.object({
-              category: z.enum(["Live talk", "Podcast", "Conference"]),
+              category: z.enum(['Live talk', 'Podcast', 'Conference']),
               title: z.string(),
               date: z.date(),
               location: z.string(),
-              url: z.string().optional(),
+              url: z.string().optional()
             })
-          ),
-        }),
+          )
+        })
       })
     ),
     about: defineCollection(
       asSeoCollection({
-        type: "page",
-        source: "about.yml",
+        type: 'page',
+        source: 'about.yml',
         schema: z.object({
           content: z.object({}),
-          images: z.array(createImageSchema()),
-        }),
+          images: z.array(createImageSchema())
+        })
       })
-    ),
-  },
-});
+    )
+  }
+})

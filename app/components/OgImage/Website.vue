@@ -5,18 +5,18 @@
 
 withDefaults(
   defineProps<{
-    title?: string;
+    title?: string
   }>(),
   {
-    title: "title",
+    title: 'title'
   }
-);
+)
 </script>
 
 <template>
   <div
     :style="{
-      backgroundImage: 'linear-gradient(350deg, #FF6900, #FFB987, #FFFFFF)',
+      backgroundImage: 'linear-gradient(350deg, #FF6900, #FFB987, #FFFFFF)'
     }"
     class="h-full w-full flex items-start justify-start"
   >
@@ -31,7 +31,7 @@ withDefaults(
             class="h-20 w-20"
             width="80"
             height="80"
-          />
+          >
           <span>Valentin Chmara</span>
         </div>
         <h1 class="text-[60px] text-neutral-800 font-bold text-left">
