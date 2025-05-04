@@ -9,7 +9,8 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@nuxtjs/seo',
     'motion-v/nuxt',
-    'nuxt-llms'
+    'nuxt-llms',
+    'nuxt-umami'
   ],
 
   devtools: {
@@ -34,6 +35,11 @@ export default defineNuxtConfig({
       routes: ['/'],
       crawlLinks: true
     }
+  },
+  umami: {
+    id: '7bc2690f-e441-4e2b-819c-a9c11ee202b8',
+    host: 'https://cloud.umami.is',
+    autoTrack: true,
   },
 
   eslint: {
