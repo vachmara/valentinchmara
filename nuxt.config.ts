@@ -36,11 +36,6 @@ export default defineNuxtConfig({
       crawlLinks: true
     }
   },
-  umami: {
-    id: '7bc2690f-e441-4e2b-819c-a9c11ee202b8',
-    host: 'https://cloud.umami.is',
-    autoTrack: true,
-  },
 
   eslint: {
     config: {
@@ -64,5 +59,10 @@ export default defineNuxtConfig({
       name: 'Supadev',
       logo: 'https://supadev.fr/favicon.png'
     })
+  },
+  umami: {
+    id: '7bc2690f-e441-4e2b-819c-a9c11ee202b8',
+    host: 'https://cloud.umami.is',
+    autoTrack: true
   }
 })
