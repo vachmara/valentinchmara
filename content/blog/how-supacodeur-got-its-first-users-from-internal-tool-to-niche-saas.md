@@ -2,8 +2,8 @@
 title: How SupaCodeur got its first users — From internal tool to niche SaaS
 description: I built SupaCodeur to solve my own frustrations with Codeur.com. Here's how I turned it into a real SaaS, got my first users, and what I learned along the way.
 date: 2025-05-05
-image: https://images.pexels.com/photos/7988745/pexels-photo-7988745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-minRead: 10
+image: https://images.pexels.com/photos/7679642/pexels-photo-7679642.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+minRead: 5
 author:
   name: Valentin Chmara
   avatar:
