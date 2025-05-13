@@ -12,7 +12,6 @@ export default defineNuxtConfig({
     'nuxt-llms',
     'nuxt-umami'
   ],
-
   devtools: {
     enabled: true
   },
@@ -23,7 +22,6 @@ export default defineNuxtConfig({
     url: 'https://valentinchmara.com',
     name: 'Valentin Chmara - Software Engineer'
   },
-
   future: {
     compatibilityVersion: 4
   },
