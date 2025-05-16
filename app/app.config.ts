@@ -38,7 +38,7 @@ export default defineAppConfig({
       },
       {
         'icon': 'i-simple-icons-linkedin',
-        'to': 'https://www.linkedin.com/in/valentin-chmara/',
+        'to': 'https://www.linkedin.com/in/valentinchmara/',
         'target': '_blank',
         'aria-label': 'Valentin Chmara on LinkedIn'
       },
