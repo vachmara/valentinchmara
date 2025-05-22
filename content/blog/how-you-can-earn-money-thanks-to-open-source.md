@@ -77,7 +77,7 @@ The fix:
 
 ### Reproducing the bug
 
-The issue reporter included a [minimal reproduction on CodeSandbox](https://codesandbox.io/p/sandbox/lvy7mc), which made the debugging process incredibly smooth. I was able to see the unexpected behavior immediately: enabling `exact: true` was returning no results when it should've returned one.
+The issue reporter included a [minimal reproduction on CodeSandbox](https://codesandbox.io/p/sandbox/lvy7mc), which made the debugging process incredibly smooth. I was able to see the unexpected behavior immediately: enabling `exact: true` was returning one result when it shouldn't have returned one.
 
 After verifying the issue, I cloned the Orama repository locally. Following the README and contributing guidelines, I set up the monorepo and explored the structure. At the root, I checked the `package.json` and noticed the project uses [Turborepo](https://turbo.build/) for managing multiple packages, very clean and well-structured.
 
@@ -100,15 +100,15 @@ insert(db, { path: "Second Note.md", title: "Second Note" });
 const noExact = search(db, {
   term: "first",
   properties: ["path"],
-}); // 1 result OK
+}); 
 const withExact = search(db, {
   term: "first",
   properties: ["path"],
   exact: true,
-}); // 1 result NOT OK
+}); 
 
-console.log("noExact path", noExact);
-console.log("withExact path", withExact);
+console.log("noExact path", noExact); // 1 result returned, 1 expected => GOOD
+console.log("withExact path", withExact); // 1 result returned, but none was expected => BAD
 ```
 
 I tracked the `exact` parameter through the codebase:
