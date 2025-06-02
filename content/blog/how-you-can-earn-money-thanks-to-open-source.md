@@ -79,7 +79,7 @@ The fix:
 
 The issue reporter included a [minimal reproduction on CodeSandbox](https://codesandbox.io/p/sandbox/lvy7mc), which made the debugging process incredibly smooth. I was able to see the unexpected behavior immediately: enabling `exact: true` was returning one result when it shouldn't have returned one.
 
-After verifying the issue, I cloned the Orama repository locally. Following the README and contributing guidelines, I set up the monorepo and explored the structure. At the root, I checked the `package.json` and noticed the project uses [Turborepo](https://turbo.build/) for managing multiple packages, very clean and well-structured.
+After verifying the issue, I cloned the Orama repository locally. Following the README and contributing guidelines, I set up the monorepo and explored the structure. At the root, I checked the `package.json` and noticed the project uses [Turborepo](https://turborepo.com/) for managing multiple packages, very clean and well-structured.
 
 I then focused on understanding how the search engine processes queries in `exact` mode. I read the documentation, particularly [this section on exact match](https://docs.orama.com/open-source/usage/search/introduction#exact-match), to make sure my expectations were aligned with intended behavior.
 
@@ -204,7 +204,7 @@ It's the ultimate blend of learning, reputation-building, and side income.
 ## Resources & Next Steps
 
 - 💼 My contributions: [https://prs.valentinchmara.com](https://prs.valentinchmara.com)
-- 🏹 My Algora profile: [https://algora.io/vachmara](https://algora.io/vachmara)
+- 🏹 My Algora profile: [https://algora.io/vachmara](https://algora.io/vachmara/profile)
 - 🚀 Good first bounty list: [https://goodfirstissue.dev](https://goodfirstissue.dev)
 
 ---
