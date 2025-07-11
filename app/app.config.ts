@@ -44,7 +44,7 @@ export default defineAppConfig({
       },
       {
         'icon': 'i-simple-icons-x',
-        'to': 'https://x.com/ValentinChmara',
+        'to': 'https://x.com/vachmara',
         'target': '_blank',
         'aria-label': 'Valentin Chmara on X'
       },
