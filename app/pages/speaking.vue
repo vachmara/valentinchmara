@@ -1,7 +1,7 @@
 <script setup lang="ts">
 type Event = {
   title: string
-  date: Date
+  date: string
   location: string
   url?: string
   category: 'Conference' | 'Live talk' | 'Podcast'
@@ -99,7 +99,7 @@ function formatDate(dateString: Date): string {
                 v-if="event.location && event.date"
                 class="mx-1"
               >·</span>
-              <span v-if="event.date">{{ formatDate(event.date) }}</span>
+              <span v-if="event.date">{{ formatDate(new Date(event.date)) }}</span>
             </div>
 
             <h3 class="text-lg font-semibold text-highlighted">

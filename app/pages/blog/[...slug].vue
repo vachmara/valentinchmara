@@ -64,7 +64,7 @@ const formatDate = (dateString: Date) => {
         <div class="flex flex-col gap-3 mt-8">
           <div class="flex text-xs text-muted items-center justify-center gap-2">
             <span v-if="page.date">
-              {{ formatDate(page.date) }}
+              {{ formatDate(new Date(page.date)) }}
             </span>
             <span v-if="page.date && page.minRead">
               -
