@@ -33,7 +33,7 @@ He brought the problem; I brought the time. I locked in for **three days**, ship
 
 From day one, we bet on **organic**.
 
-- **Exact-match domain:** [`telegram-finder.io`](telegram-finder.io) mirrors the primary query.  
+- **Exact-match domain:** [`telegram-finder.io`](https://www.telegram-finder.io) mirrors the primary query.  
 - **On-page built for humans & crawlers:** H1, meta, FAQ, pricing.  
 - **Lean & fast:** index quickly, reduce bounce, get users to value fast.
 
