@@ -7,8 +7,8 @@ export default defineAppConfig({
       alt: 'valentin Chmara'
     },
     meetingLink: 'https://cal.com/valentinchmara/30min',
-    email: 'valentin@supadev.fr',
-    available: true
+    email: 'valentinchmara@gmail.com',
+    available: false
   },
   ui: {
     colors: {
@@ -47,12 +47,6 @@ export default defineAppConfig({
         'to': 'https://x.com/vachmara',
         'target': '_blank',
         'aria-label': 'Valentin Chmara on X'
-      },
-      {
-        'icon': 'i-simple-icons-malt',
-        'to': 'https://www.malt.fr/profile/valentinchmara',
-        'target': '_blank',
-        'aria-label': 'Valentin Chmara on Malt'
       }
     ]
   }

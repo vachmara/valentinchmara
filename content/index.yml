@@ -39,12 +39,12 @@ about:
 experience:
   title: Work Experience
   items:
-    - position: "Founder at"
+    - position: "Co-founder at"
       date: "2021 - Present"
       company:
-        name: SupaDev
+        name: Agence SWAI
         logo: ""
-        url: "https://supadev.fr"
+        url: "https://www.agence-swai.com"
         color: "#ff6900"
     - position: "CTO at"
       date: "2022 - 2024"
