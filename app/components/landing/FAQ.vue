@@ -40,7 +40,7 @@ const ui = {
       :ui
     >
       <template #content="{ item }">
-        <UPageAccordion
+        <UAccordion
           trailing-icon="lucide:plus"
           :items="item.questions"
           :ui="{
@@ -56,7 +56,7 @@ const ui = {
               class="px-4"
             />
           </template>
-        </UPageAccordion>
+        </UAccordion>
       </template>
     </UTabs>
   </UPageSection>
