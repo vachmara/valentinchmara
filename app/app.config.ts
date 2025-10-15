@@ -14,9 +14,7 @@ export default defineAppConfig({
     colors: {
       primary: 'orange',
       neutral: 'neutral'
-    }
-  },
-  uiPro: {
+    },
     pageHero: {
       slots: {
         container: 'py-18 sm:py-24 lg:py-32',
