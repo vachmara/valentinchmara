@@ -112,7 +112,7 @@ For **three weeks**, we had a **product problem** that degraded the experience. 
 
 ## See it live
 
-- Product: **telegram-finder.io**  
+- Product: [**telegram-finder.io**](https://www.telegram-finder.io)
 - Launches: [Uneed](https://www.uneed.best/tool/telegram-finder) · [Product Hunt](https://www.producthunt.com/products/telegram-finder/launches/telegram-finder)  
 - Demo: [Loom walkthrough](https://www.loom.com/share/264eb26562664ed88fb1a1054d493198)
 

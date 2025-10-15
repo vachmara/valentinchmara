@@ -1,6 +1,6 @@
 ---
 title: "How you can earn money thanks to Open Source"
-description: A personal journey through open-source contributions, bounties and real-world projects, how I improved my skills and got paid along the way.
+description: A personal journey through open-source contributions, bounties and real-world projects, how I improved my skills and got (not) paid along the way.
 date: 2025-05-20
 image: /05-20-2025-thumbnail.png
 minRead: 10
@@ -15,7 +15,7 @@ author:
 
 I've always loved the world of open source, collaborating with other developers, diving into real-world problems, and contributing to projects that matter. But here's something many people don't realize: **you can actually earn money by contributing to open source**.
 
-In this post, I'll walk you through the different ways open source can reward you financially, share my own experience contributing to a few projects, and give you a behind-the-scenes look at my most **[recent contribution that earned me a $150 bounty](/blog/how-you-can-earn-money-thanks-to-open-source#case-study-fixing-oramas-exact-true-bug-150-bounty)**. If you've ever thought "I'd love to contribute, but I need to focus on paid work," this might change your mind.
+In this post, I'll walk you through the different ways open source can reward you financially, share my own experience contributing to a few projects, and give you a behind-the-scenes look at my most **[recent contribution that could help me earned a $150 bounty](/blog/how-you-can-earn-money-thanks-to-open-source#case-study-fixing-oramas-exact-true-bug-150-bounty)**. If you've ever thought "I'd love to contribute, but I need to focus on paid work," this might change your mind.
 
 ---
 
@@ -214,6 +214,11 @@ It's the ultimate blend of learning, reputation-building, and side income.
 Open source isn't just about giving-it's about growing. You can learn, collaborate, and yes, even **get paid** for writing great code in public. If you're passionate about development, pick one bounty this week. Fix it. Submit it.
 
 You'll come out a better engineer-and maybe with coffee money (or more) in your pocket.
+
+
+## Edit (2025-10-15): 
+The maintainer eventually closed every related PR, including mine, and shipped the fix internally.
+It's not the ending I expected-but that's also what open source teaches you: sometimes your work is merged, sometimes it's just mirrored. Either way, the learning remains yours.
 
 ---
 
