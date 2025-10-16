@@ -136,6 +136,15 @@ export default defineContentConfig({
           images: z.array(createImageSchema())
         })
       })
+    ),
+    terms: defineCollection(
+      asSeoCollection({
+        type: 'page',
+        source: 'terms.yml',
+        schema: z.object({
+          content: z.object({})
+        })
+      })
     )
   }
 })

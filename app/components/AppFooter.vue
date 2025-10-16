@@ -12,9 +12,8 @@ const { footer } = useAppConfig()
     </template>
 
     <NuxtLink
-      to="https://supadev.fr/en/legal"
+      to="/terms"
       class="text-xs"
-      target="_blank"
     >
       Terms of Service
     </NuxtLink>

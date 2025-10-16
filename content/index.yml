@@ -8,6 +8,7 @@ hero:
     - label: "My PRs on GitHub"
       to: https://prs.valentinchmara.com
       color: "neutral"
+      variant: "subtle"
       target: "_blank"
   images:
     - src: https://supadev.fr/projects/supacodeur.png
