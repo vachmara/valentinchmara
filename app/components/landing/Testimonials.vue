@@ -9,7 +9,7 @@ defineProps<{
 <template>
   <UPageSection
     :ui="{
-      container: 'px-0 !pt-0 '
+      container: 'px-0 !pt-0'
     }"
   >
     <UCarousel
@@ -23,7 +23,7 @@ defineProps<{
       }"
     >
       <UPageCTA
-        :description="item.quote"
+        :description="(item as IndexCollectionItem['testimonials'][number])?.quote"
         variant="naked"
         class="rounded-none"
         :ui="{
@@ -32,7 +32,7 @@ defineProps<{
         }"
       >
         <UUser
-          v-bind="item.author"
+          v-bind="(item as IndexCollectionItem['testimonials'][number])?.author"
           size="xl"
           class="justify-center"
         />

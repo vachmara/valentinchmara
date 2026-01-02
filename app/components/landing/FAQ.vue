@@ -48,9 +48,11 @@ const ui = {
             trigger: 'mb-2 border-0 group px-4 transform-gpu rounded-lg bg-elevated/60 will-change-transform hover:bg-muted/50',
             trailingIcon: 'group-data-[state=closed]:rotate-0 group-data-[state=open]:rotate-135'
           }"
+          :unmount-on-hide="false"
         >
           <template #body="{ item: _item }">
             <MDC
+              v-if="_item.content"
               :value="_item.content"
               unwrap="p"
               class="px-4"
