@@ -1,17 +1,7 @@
 import { defineOrganization } from 'nuxt-schema-org/schema'
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: [
-    '@nuxt/eslint',
-    '@nuxt/image',
-    '@nuxt/ui',
-    '@nuxt/content',
-    '@vueuse/nuxt',
-    '@nuxtjs/seo',
-    'motion-v/nuxt',
-    'nuxt-llms',
-    'nuxt-umami'
-  ],
+  modules: ['@nuxt/eslint', '@nuxt/image', '@nuxt/ui', '@nuxt/content', '@vueuse/nuxt', '@nuxtjs/seo', 'motion-v/nuxt', 'nuxt-llms', '@nuxt/scripts'],
   devtools: {
     enabled: true
   },
@@ -22,6 +12,7 @@ export default defineNuxtConfig({
     url: 'https://valentinchmara.com',
     name: 'Valentin Chmara - Software Engineer'
   },
+
   future: {
     compatibilityVersion: 4
   },
@@ -54,14 +45,24 @@ export default defineNuxtConfig({
   schemaOrg: {
     reactive: true,
     identity: defineOrganization({
-      name: 'Supadev',
-      logo: 'https://supadev.fr/favicon.png'
+      name: 'Agence SWAI',
+      logo: 'https://www.agence-swai.com/favicon.png'
     })
   },
-  umami: {
-    id: '7bc2690f-e441-4e2b-819c-a9c11ee202b8',
-    host: 'https://cloud.umami.is',
-    autoTrack: true,
-    enabled: !process.env.NUXT_DEV
+
+  scripts: {
+    registry: {
+      databuddyAnalytics: {
+        clientId: '7ef09b14-bd15-4d93-85db-5eae3d19c870',
+        trackInteractions: true,
+        trackEngagement: true,
+        trackOutgoingLinks: true,
+        trackScrollDepth: true,
+        trackExitIntent: true,
+        trackBounceRate: true,
+        trackWebVitals: true,
+        enableBatching: true
+      }
+    }
   }
 })
