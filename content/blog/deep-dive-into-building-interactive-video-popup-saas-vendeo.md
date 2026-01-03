@@ -188,4 +188,4 @@ There were moments of frustration, like wrestling with browser memory limits and
 
 ---
 
-*Want to discuss similar technical challenges or performance optimization strategies? Connect with me on [X](https://x.com/ValentinChmara) or check out the [Vendeo.io](https://vendeo.io) implementation.*
+*Want to discuss similar technical challenges or performance optimization strategies? Connect with me on [X](https://x.com/vachmara) or check out the [Vendeo.io](https://vendeo.io) implementation.*

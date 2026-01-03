@@ -77,5 +77,5 @@ Open sourcing client work may seem risky at first, but combined with AI‑accele
 
 ---
 
-*Want to discuss open source or AI-powered development? Connect with me on [X](https://x.com/ValentinChmara).*
+*Want to discuss open source or AI-powered development? Connect with me on [X](https://x.com/vachmara).*
 

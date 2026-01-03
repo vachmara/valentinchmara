@@ -161,4 +161,4 @@ If you’re serious about scaling growth, engaging your ideal audience, and free
 **Bottom line:**  
 Building this AI-powered content pipeline gave me consistency, audience insights, and scale—while letting me focus on big-picture strategy. If you want your brand to be seen, remembered, and trusted, give multi-agent automation (with human-in-the-loop) a try.
 
-*Want to discuss open source or AI-powered development? Connect with me on [X](https://x.com/ValentinChmara).*
+*Want to discuss open source or AI-powered development? Connect with me on [X](https://x.com/vachmara).*

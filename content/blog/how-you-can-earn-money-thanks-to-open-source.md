@@ -222,4 +222,4 @@ It's not the ending I expected-but that's also what open source teaches you: som
 
 ---
 
-_Thanks for reading! Feel free to share your own OSS bounty stories with me on [X](https://x.com/ValentinChmara)._ ✌️
+_Thanks for reading! Feel free to share your own OSS bounty stories with me on [X](https://x.com/vachmara)._ ✌️
