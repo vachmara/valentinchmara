@@ -33,7 +33,7 @@
     "eslint": "^9.39.2",
     "framer-motion": "^12.23.26",
     "typescript": "^5.9.3",
-    "vue-tsc": "^2.2.12"
+    "vue-tsc": "^3.2.1"
   },
   "resolutions": {
     "unimport": "4.1.1"
