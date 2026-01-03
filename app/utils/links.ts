@@ -25,7 +25,7 @@ export const navLinks: NavigationMenuItem[] = [
     label: 'Projects',
     icon: 'i-lucide-folder',
     target: '_blank',
-    to: 'https://supadev.fr/en/projects'
+    to: 'https://www.agence-swai.com/projets'
   },
   {
     label: 'My PRs',

@@ -63,7 +63,7 @@ In **February**, the MVP was ready. Not perfect, but usable.
 
 ### The First iteration
 
-I hosted it under [`supadev.fr`](https://supadev.fr), my studio brand.  
+I hosted it under my previous studio brand, [`supadev.fr`](https://www.agence-swai.com), which has now been merged into [Agence SWAI](https://www.agence-swai.com).  
 At first it was just:
 
 - A simple form

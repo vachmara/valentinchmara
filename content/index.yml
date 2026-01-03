@@ -11,27 +11,27 @@ hero:
       variant: "subtle"
       target: "_blank"
   images:
-    - src: https://supadev.fr/projects/supacodeur.png
-      alt: SupaCodeur
-    - src: https://supadev.fr/projects/rembr.png
+    - src: https://www.agence-swai.com/projets/supacodeur.png
+      alt: Supacodeur
+    - src: https://www.agence-swai.com/projets/rembr.png
       alt: Rembr
-    - src: https://supadev.fr/projects/vendeo.png
+    - src: https://www.agence-swai.com/projets/vendeo.png
       alt: Vendeo
-    - src: https://supadev.fr/projects/ambrosia.png
+    - src: https://www.agence-swai.com/projets/ambrosia.png
       alt: Ambrosia
-    - src: https://supadev.fr/projects/bizmapper.png
+    - src: https://www.agence-swai.com/projets/bizmapper.png
       alt: BizMapper
-    - src: https://supadev.fr/projects/magma.png
+    - src: https://www.agence-swai.com/projets/magma.png
       alt: Magma
-    - src: https://supadev.fr/projects/ameo.png
+    - src: https://www.agence-swai.com/projets/ameo.png
       alt: Ameo
-    - src: https://supadev.fr/projects/marchandor.png
+    - src: https://www.agence-swai.com/projets/marchandor.png
       alt: Marchandor
-    - src: https://supadev.fr/projects/flashtoner.png
+    - src: https://www.agence-swai.com/projets/flashtoner.png
       alt: FlashToner
-    - src: https://supadev.fr/projects/telegramfinder.png
+    - src: https://www.agence-swai.com/projets/telegramfinder.png
       alt: TelegramFinder
-    - src: https://supadev.fr/projects/cal.png
+    - src: https://www.agence-swai.com/projets/cal.png
       alt: Cal
 about:
   title: "About Me"
@@ -67,25 +67,25 @@ testimonials:
       name: "Valentin Guillemain"
       description: "Founder at E3GO"
       avatar:
-        src: "https://supadev.fr/valentin.jpg"
+        src: "/testimonials/valentin.jpg"
   - quote: "Valentin is the most hard working and talented developer I’ve ever worked with! He is fast and can bring to reality everything you’re wishing for. He is truly one of the best in his domain. Thank you, Valentin!!"
     author:
       name: "Lana Denina"
       description: "Founder of The Mona Lana"
       avatar:
-        src: "https://supadev.fr/lana.jpg"
+        src: "/testimonials/lana.jpg"
   - quote: "I am delighted to recommend Valentin for his application development expertise. His responsiveness, transparent communication, and attention to quality make him a passionate and reliable professional."
     author:
       name: "Florent Ferrante"
       description: "Founder of Cabinet Ferrante"
       avatar:
-        src: "https://supadev.fr/florent.jpg"
+        src: "/testimonials/florent.jpg"
   - quote: "Valentin stood out as an extremely serious, dynamic, and reactive professional ✅. He is overflowing with innovative ideas and resources, which greatly contributed to the success of the projects we executed together 🎉"
     author:
       name: "Julien Pierre"
       description: "Founder of Meta-sense"
       avatar:
-        src: "https://supadev.fr/julien.jpg"
+        src: "/testimonials/julien.jpg"
 
 blog:
   title: "Latest Articles"
@@ -100,13 +100,11 @@ faq:
           content: |
             Here the services I offer:
 
-            - Fullstack Web Development
-            - SaaS Development
-            - Reactive Outsourcing
-            - Tailored Solutions
-            - Consulting
+            - AI Audit & Consulting
+            - Custom Software Development
+            - AI Integration
 
-            You can find more details on my [services page](https://supadev.fr/en/#services).
+            You can find more details on my [agency website](https://www.agence-swai.com/).
         - label: Do you work with startups?
           content: |
             Absolutely! I enjoy working with startups to help shape their product vision and create user-friendly interfaces from the ground up. I can adapt my process to fit the fast-paced startup environment.
