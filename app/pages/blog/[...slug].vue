@@ -1,8 +1,4 @@
 <script setup lang="ts">
-import type { ContentNavigationItem } from '@nuxt/content'
-import { mapContentNavigation } from '@nuxt/ui/utils/content'
-import { findPageBreadcrumb } from '@nuxt/content/utils'
-
 const route = useRoute()
 
 const { data: page } = await useAsyncData(route.path, () =>
@@ -15,11 +11,6 @@ const { data: surround } = await useAsyncData(`${route.path}-surround`, () =>
   })
 )
 
-const navigation = inject<Ref<ContentNavigationItem[]>>('navigation', ref([]))
-const blogNavigation = computed(() => navigation.value.find(item => item.path === '/blog')?.children || [])
-
-const breadcrumb = computed(() => mapContentNavigation(findPageBreadcrumb(blogNavigation?.value, page.value?.path)).map(({ icon, ...link }) => link))
-
 const formatDate = (dateString: Date) => {
   return new Date(dateString).toLocaleDateString('en-US', {
     year: 'numeric',
@@ -28,12 +19,14 @@ const formatDate = (dateString: Date) => {
   })
 }
 
-defineOgImage('BlogPost.takumi', {
-  title: breadcrumb.value.map(item => item.label).join(' > '),
-  author: page.value.author?.name || 'Valentin Chmara',
-  date: page.value.date ? formatDate(new Date(page.value.date)) : undefined,
-  backgroundImage: page.value.image ? page.value.image : undefined
-}, {
+defineOgImage('BlogPost.takumi', page.value.image
+  ? {
+      backgroundImage: page.value.image ? page.value.image : undefined
+    }
+  : { title: page.value.title,
+      author: page.value.author?.name || 'Valentin Chmara',
+      date: page.value.date ? formatDate(new Date(page.value.date)) : undefined
+    }, {
   fonts: ['Geist:400', 'Geist:600']
 })
 
@@ -76,7 +69,7 @@ const articleLink = computed(() => `${window.location}`)
           <NuxtImg
             :src="page.image"
             :alt="page.title"
-            class="rounded-lg w-full h-[300px] object-cover object-center"
+            class="rounded-lg w-full h-75 object-cover object-center"
           />
           <h1 class="text-4xl text-center font-medium max-w-3xl mx-auto mt-4">
             {{ page.title }}
