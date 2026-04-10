@@ -24,7 +24,7 @@
     "@vueuse/nuxt": "^14.1.0",
     "better-sqlite3": "^12.5.0",
     "motion-v": "^1.7.5",
-    "nuxt": "^4.2.2",
+    "nuxt": "^4.4.2",
     "nuxt-llms": "^0.1.3"
 
   },
