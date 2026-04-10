@@ -28,7 +28,7 @@ useSeoMeta({
   ogDescription: description
 })
 
-defineOgImageComponent('Website')
+defineOgImage('Website.takumi')
 
 const [{ data: navigation }, { data: files }] = await Promise.all([
   useAsyncData(
