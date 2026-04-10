@@ -22,12 +22,6 @@ export const navLinks: NavigationMenuItem[] = [
     to: '/about'
   },
   {
-    label: 'Projects',
-    icon: 'i-lucide-folder',
-    target: '_blank',
-    to: 'https://www.agence-swai.com/projets'
-  },
-  {
     label: 'My PRs',
     icon: 'i-lucide-git-pull-request',
     class: 'hidden md:block',
