@@ -45,8 +45,8 @@ export default defineNuxtConfig({
   schemaOrg: {
     reactive: true,
     identity: defineOrganization({
-      name: 'Agence SWAI',
-      logo: 'https://www.agence-swai.com/favicon.png'
+      name: 'Qleer.ai',
+      logo: 'https://app.qleer.ai/favicon.png'
     })
   },
 
