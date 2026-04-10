@@ -22,7 +22,6 @@
     "@nuxt/ui": "^4.6.1",
     "@nuxtjs/seo": "^5.1.2",
     "@takumi-rs/core": "^1.0.1",
-    "@unhead/vue": "^3.0.2",
     "@vueuse/nuxt": "^14.2.1",
     "better-sqlite3": "^12.8.0",
     "motion-v": "^2.2.0",
@@ -31,6 +30,7 @@
   },
   "devDependencies": {
     "@nuxt/eslint": "^1.15.2",
+    "@takumi-rs/wasm": "^1.0.1",
     "eslint": "^10.2.0",
     "framer-motion": "^12.38.0",
     "typescript": "^6.0.2",

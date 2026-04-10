@@ -49,8 +49,7 @@ It's been a long time since I started to build a big OSS project, even if I know
 
 Over the years, I've contributed to a growing list of open source projects. From documentation improvements to bug fixes and feature additions, I've learned a ton and built track record I'm proud of.
 
-**You can see a full history of my contributions here:** 
-- [https://prs.valentinchmara.com](https://prs.valentinchmara.com)
+**You can see a full history of my contributions [here](https://prs.valentinchmara.com)**
 
 Projects include:
 - Company like [Cal.com](https://cal.com)

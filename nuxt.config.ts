@@ -44,6 +44,10 @@ export default defineNuxtConfig({
       'Welcome to my website! I\'m a Software Engineer with a passion for building innovative solutions. Explore my portfolio to see my work and get in touch.'
   },
 
+  ogImage: {
+    zeroRuntime: true
+  },
+
   schemaOrg: {
     reactive: true,
     identity: defineOrganization({
