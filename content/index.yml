@@ -40,8 +40,15 @@ about:
 experience:
   title: Work Experience
   items:
+    - position: "CTO at"
+      date: "2026 - Present"
+      company:
+        name: Qleer.ai
+        logo: ""
+        url: "https://qleer.ai"
+        color: "#4472c4"
     - position: "Co-founder at"
-      date: "2021 - Present"
+      date: "2021 - 2026"
       company:
         name: Agence SWAI
         logo: ""

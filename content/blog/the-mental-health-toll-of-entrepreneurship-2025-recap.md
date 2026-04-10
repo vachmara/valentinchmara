@@ -96,6 +96,7 @@ These aren't quick fixes, but they've kept me grounded amid the chaos.
 
 But with three ventures running simultaneously, it's overwhelming. That's one reason I'm considering selling [SupaCodeur](/blog/how-supacodeur-got-its-first-users-from-internal-tool-to-niche-saas) or finding a co-founder to help manage it. If you're interested in acquiring it, check out my [TrustMrr profile](https://trustmrr.com/founder/vachmara).
 
+
 The mental health battle continues. Entrepreneurship tests you relentlessly. But it also teaches resilience, empathy, and joy in creation.
 
 ## To Anyone Feeling This
@@ -115,6 +116,9 @@ Remember: The struggle is part of the story. And your story is worth telling.
 Entrepreneurship nearly broke me in 2024-2025. But it also rebuilt me stronger.
 
 Here's to the journey—messy, beautiful, ours.
+
+> ## 2026 Update
+> In 2026, I had to make another hard decision: stop the agency and go all in with [Qleer](https://qleer.ai), an AI startup I first worked with as a client, where I'm now CTO. Letting go of something I built wasn't easy, but choosing focus over constant fragmentation already feels like the healthiest move I've made in a while.
 
 If you're on this path, let's connect. Share your story.
 
