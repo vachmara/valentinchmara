@@ -1,7 +1,7 @@
 import { defineOrganization } from 'nuxt-schema-org/schema'
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/eslint', '@nuxt/image', '@nuxt/ui', '@nuxt/content', '@vueuse/nuxt', '@nuxtjs/seo', 'motion-v/nuxt', 'nuxt-llms', '@nuxt/scripts'],
+  modules: ['@nuxt/eslint', '@nuxt/image', '@nuxt/ui', '@nuxt/content', '@vueuse/nuxt', '@nuxtjs/seo', 'motion-v/nuxt', 'nuxt-llms', '@nuxt/scripts', '@nuxt/fonts'],
   devtools: {
     enabled: true
   },
@@ -14,10 +14,12 @@ export default defineNuxtConfig({
   },
 
   future: {
-    compatibilityVersion: 4
+    compatibilityVersion: 5
   },
 
-  compatibilityDate: '2024-11-01',
+  experimental: { nitroAutoImports: true },
+
+  compatibilityDate: 'latest',
 
   nitro: {
     prerender: {
@@ -45,8 +47,8 @@ export default defineNuxtConfig({
   schemaOrg: {
     reactive: true,
     identity: defineOrganization({
-      name: 'Agence SWAI',
-      logo: 'https://www.agence-swai.com/favicon.png'
+      name: 'Qleer.ai',
+      logo: 'https://app.qleer.ai/favicon.png'
     })
   },
 
