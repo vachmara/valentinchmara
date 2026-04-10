@@ -27,7 +27,7 @@
     "better-sqlite3": "^12.8.0",
     "motion-v": "^2.2.0",
     "nuxt": "^4.4.2",
-    "nuxt-llms": "^0.1.4"
+    "nuxt-llms": "^0.2.0"
   },
   "devDependencies": {
     "@nuxt/eslint": "^1.15.2",
@@ -39,5 +39,5 @@
   "resolutions": {
     "unimport": "4.1.1"
   },
-  "packageManager": "pnpm@10.27.0"
+  "packageManager": "pnpm@10.33.0"
 }
