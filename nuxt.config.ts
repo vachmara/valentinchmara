@@ -14,10 +14,12 @@ export default defineNuxtConfig({
   },
 
   future: {
-    compatibilityVersion: 4
+    compatibilityVersion: 5
   },
 
-  compatibilityDate: '2024-11-01',
+  experimental: { nitroAutoImports: true },
+
+  compatibilityDate: 'latest',
 
   nitro: {
     prerender: {
