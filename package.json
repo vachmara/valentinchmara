@@ -20,7 +20,7 @@
     "@nuxt/scripts": "0.13.2",
     "@nuxt/ui": "^4.3.0",
     "@nuxtjs/seo": "^3.3.0",
-    "@unhead/vue": "^2.0.19",
+    "@unhead/vue": "^3.0.2",
     "@vueuse/nuxt": "^14.1.0",
     "better-sqlite3": "^12.5.0",
     "motion-v": "^1.7.5",
