@@ -32,7 +32,7 @@
     "@nuxt/eslint": "^1.12.1",
     "eslint": "^9.39.2",
     "framer-motion": "^12.23.26",
-    "typescript": "^5.9.3",
+    "typescript": "^6.0.2",
     "vue-tsc": "^3.2.1"
   },
   "resolutions": {
