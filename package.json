@@ -26,7 +26,8 @@
     "better-sqlite3": "^12.11.1",
     "motion-v": "^2.3.0",
     "nuxt": "^4.5.0",
-    "nuxt-llms": "^0.2.0"
+    "nuxt-llms": "^0.2.0",
+    "nuxt-schema-org": "^6.2.3"
   },
   "devDependencies": {
     "@nuxt/eslint": "^1.16.0",
