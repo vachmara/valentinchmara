@@ -11,27 +11,27 @@ hero:
       variant: "subtle"
       target: "_blank"
   images:
-    - src: https://www.agence-swai.com/projets/supacodeur.png
+    - src: https://supadev.fr/projects/supacodeur.png
       alt: Supacodeur
-    - src: https://www.agence-swai.com/projets/rembr.png
+    - src: https://supadev.fr/projects/rembr.png
       alt: Rembr
-    - src: https://www.agence-swai.com/projets/vendeo.png
+    - src: https://supadev.fr/projects/vendeo.png
       alt: Vendeo
-    - src: https://www.agence-swai.com/projets/ambrosia.png
+    - src: https://supadev.fr/projects/ambrosia.png
       alt: Ambrosia
-    - src: https://www.agence-swai.com/projets/bizmapper.png
+    - src: https://supadev.fr/projects/bizmapper.png
       alt: BizMapper
-    - src: https://www.agence-swai.com/projets/magma.png
+    - src: https://supadev.fr/projects/magma.png
       alt: Magma
-    - src: https://www.agence-swai.com/projets/ameo.png
+    - src: https://supadev.fr/projects/ameo.png
       alt: Ameo
-    - src: https://www.agence-swai.com/projets/marchandor.png
+    - src: https://supadev.fr/projects/marchandor.png
       alt: Marchandor
-    - src: https://www.agence-swai.com/projets/flashtoner.png
+    - src: https://supadev.fr/projects/flashtoner.png
       alt: FlashToner
-    - src: https://www.agence-swai.com/projets/telegramfinder.png
+    - src: https://supadev.fr/projects/telegramfinder.png
       alt: TelegramFinder
-    - src: https://www.agence-swai.com/projets/cal.png
+    - src: https://supadev.fr/projects/cal.png
       alt: Cal
 about:
   title: "About Me"
@@ -40,7 +40,7 @@ about:
 experience:
   title: Work Experience
   items:
-    - position: "CTO at"
+    - position: "Cofounder & CTO at"
       date: "2026 - Present"
       company:
         name: Qleer.ai
