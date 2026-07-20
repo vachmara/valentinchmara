@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@nuxt/eslint": "^1.16.0",
-    "@takumi-rs/wasm": "^1.8.7",
+    "@takumi-rs/wasm": "^2.3.0",
     "eslint": "^10.7.0",
     "framer-motion": "^12.42.2",
     "typescript": "^6.0.3",
