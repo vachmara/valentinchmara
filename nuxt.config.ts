@@ -32,7 +32,7 @@ export default defineNuxtConfig({
 
   site: {
     url: 'https://valentinchmara.com',
-    name: 'Valentin Chmara - Software Engineer'
+    name: 'Valentin Chmara - Co-founder & CTO at Qleer'
   },
 
   future: {
@@ -61,9 +61,9 @@ export default defineNuxtConfig({
 
   llms: {
     domain: 'https://valentinchmara.com',
-    title: 'Valentin Chmara - Software Engineer',
+    title: 'Valentin Chmara - Co-founder & CTO at Qleer',
     description:
-      'Welcome to my website! I\'m a Software Engineer with a passion for building innovative solutions. Explore my portfolio to see my work and get in touch.'
+      'I\'m Valentin Chmara, Co-founder and CTO at Qleer. I build AI products, contribute to open source, and share what I learn along the way.'
   },
 
   ogImage: {
@@ -75,9 +75,9 @@ export default defineNuxtConfig({
     identity: definePerson({
       name: 'Valentin Chmara',
       image: '/avatar.png',
-      description: 'I\'m a Software Engineer with a passion for building innovative solutions.',
+      description: 'Co-founder and CTO at Qleer, building AI software for the Testing, Inspection & Certification industry.',
       url: 'https://valentinchmara.com',
-      jobTitle: 'Software Engineer',
+      jobTitle: 'Co-founder and CTO',
       worksFor: 'Qleer.ai',
       sameAs: [
         'https://www.linkedin.com/in/valentinchmara/',

@@ -109,21 +109,20 @@ defineProps<{
             v-bind="page.hero.links[0]"
           />
           <UButton
-            :color="global.available ? 'success' : 'error'"
+            color="primary"
             variant="ghost"
             class="gap-2"
-            :to="global.available ? global.meetingLink : ''"
-            :label="global.available ? 'Available for new projects' : 'Not available at the moment'"
+            to="https://qleer.ai"
+            target="_blank"
+            label="Full-time CTO at Qleer"
           >
             <template #leading>
               <span class="relative flex size-2">
                 <span
-                  class="absolute inline-flex size-full rounded-full opacity-75"
-                  :class="global.available ? 'bg-success animate-ping' : 'bg-error'"
+                  class="absolute inline-flex size-full rounded-full bg-primary opacity-75"
                 />
                 <span
-                  class="relative inline-flex size-2 scale-90 rounded-full"
-                  :class="global.available ? 'bg-success' : 'bg-error'"
+                  class="relative inline-flex size-2 scale-90 rounded-full bg-primary"
                 />
               </span>
             </template>

@@ -11,6 +11,8 @@ author:
     alt: Valentin Chmara
 ---
 
+> **2026 update:** SupaCodeur is now closed. I stopped the product when I decided to focus full-time on [Qleer](https://qleer.ai), where I am Co-founder and CTO. This article remains online as a historical case study; references to growth plans below reflect the project at the time of writing.
+
 ## The origin story
 
 In **April 2024**, I was burned out from scrolling through low-quality leads on Codeur.com. Like many freelancers, I found most projects on the platform were either:
@@ -136,7 +138,7 @@ To support the project long-term, I also:
 - Wrote use-case pages to boost organic discovery
 - Started documenting the product more seriously
 
-## What’s next?
+## What was next at the time
 
 - **More users**: I’m still reaching out to freelancers and agencies, I am planning to semi automate the process.
 - **More features**: I’m working on a new version of the product, with a better UI and more features.
@@ -155,10 +157,4 @@ To support the project long-term, I also:
 
 ---
 
-SupaCodeur is still growing. Still niche. Still learning.
-
-But now it’s a real product — with users, feedback, and a future.
-
-And I’m excited to share the next steps, as always, in public.
-
-👉 Want to try it? [Visit SupaCodeur](https://www.supacodeur.fr)
+SupaCodeur became a real product with users, revenue, and feedback. It was eventually closed in 2026 when I chose to focus fully on Qleer. Although the product is no longer available, the experience remains an important part of how I learned to validate, launch, and grow a niche SaaS.

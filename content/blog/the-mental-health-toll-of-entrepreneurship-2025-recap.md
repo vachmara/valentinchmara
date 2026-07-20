@@ -118,7 +118,7 @@ Entrepreneurship nearly broke me in 2024-2025. But it also rebuilt me stronger.
 Here's to the journey—messy, beautiful, ours.
 
 > ## 2026 Update
-> In 2026, I had to make another hard decision: stop the agency and go all in with [Qleer](https://qleer.ai), an AI startup I first worked with as a client, where I'm now CTO. Letting go of something I built wasn't easy, but choosing focus over constant fragmentation already feels like the healthiest move I've made in a while.
+> In 2026, I made another hard decision: I closed SWAI Agency and SupaCodeur to go all in on [Qleer](https://qleer.ai), an AI startup I first worked with as a client and where I'm now Co-founder and CTO. Qleer is my full-time focus, and I no longer accept client work or job opportunities. Letting go of things I built wasn't easy, but choosing focus over constant fragmentation already feels like the healthiest move I've made in a while.
 
 If you're on this path, let's connect. Share your story.
 

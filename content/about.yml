@@ -1,13 +1,13 @@
 title: About Me
-description: Discover my path as a French full-stack web developer, solopreneur, and product builder, passionate about technology and crafting efficient tools and delightful user experiences.
+description: Discover my path from mechatronics and cybersecurity to becoming Co-founder and CTO at Qleer, building useful AI products and contributing to open source.
 content: |
-  Hi, I'm **Valentin Chmara**, a full-stack web developer and solopreneur from France. I've dedicated my life to making software my passion, but it all started with my curiosity as a **mechatronic engineer**. My deep interest in technology led me through various projects in **robotics**, **cybersecurity**, and **AI** before I fully embraced the world of web development.
+  Hi, I'm **Valentin Chmara**, Co-founder and CTO at [**Qleer**](https://qleer.ai). I'm a software and product engineer from France, and my path started in **mechatronics**. A deep interest in technology led me through projects in **robotics**, **cybersecurity**, and **AI** before I fully embraced software development.
   <br/><br/>
   My journey into programming began with the [**Root-Me**](https://www.root-me.org/vachmara?lang=en) community when I was in high school, where I discovered the joy of solving technical challenges through Capture The Flag (CTF) competitions. During my engineering studies, I worked on several exciting robotics projects that taught me how hardware and software intersect to create real-world solutions.
   <br/><br/>
   I wasn’t satisfied with just surface-level knowledge in AI and deep learning, so I took things further by following the [**MIT Deep Learning**](https://introtodeeplearning.com/) course online, a resource I still highly recommend.
   <br/><br/>
-  Over the years, I transitioned from tinkering with tech to building digital products used by real businesses. I launch [SWAI Agency](https://www.agence-swai.com), helping small businesses implementing AI and automation to boost their productivity. After more than 6 months of grinding, it didn't work out, so I followed one of my clients to become CTO at [Qleer](https://qleer.ai), an AI built for the TIC (Testing, Inspection & Certification) industry that radically accelerates technical files analysis and conformity reports generation.
+  Over the years, I transitioned from tinkering with technology to building digital products used by real businesses. I launched SWAI Agency to help small businesses adopt AI and automation. In 2026, I closed the agency and joined one of its former clients as Co-founder and CTO at [Qleer](https://qleer.ai). Qleer builds AI software for the Testing, Inspection & Certification industry, accelerating technical-file analysis and conformity-report generation. It is now my full-time focus, and I no longer accept client work or job opportunities.
 
   ### My approach
 
@@ -17,13 +17,13 @@ content: |
 
   I'm passionate about **technology**, **entrepreneurship**, **automation**, and **software that works**, not just in theory, but in the wild. I'm constantly experimenting with side projects, from AI-powered platforms to lightweight SaaS solutions. I enjoy wearing many hats and learning by shipping.
 
-  ### What I'm Building
+  ### Products I've Built
 
   I'm passionate about building products that solve real, tangible problems. I have a strong instinct for spotting inefficiencies or market gaps, then designing tools that bring clarity and value to users.
 
-  Here are some of my recent projects:
+  Some products that have shaped my journey include:
 
-  - [**SupaCodeur**](https://www.supacodeur.fr) - An automation tool designed for freelancers and agencies. It helps streamline prospecting on Codeur.com, saving time and boosting conversion rates.
+  - **SupaCodeur** *(closed)* - A prospecting automation tool for freelancers and agencies using Codeur.com. I keep its story as a case study in building and growing a niche SaaS.
   - [**Telegram Finder**](https://www.telegramfinder.io) - A lead enrichment tool that helps you find Telegram usernames from LinkedIn profiles, emails, or phone numbers, ideal for outreach and growth hacking.
 
   <br/><br/>
@@ -33,4 +33,4 @@ content: |
 
   Outside of coding, you'll find me exploring hiking trails, backpacking internationally, or working on my surf takeoff (still a work in progress). I also love creating tiny digital experiments just for fun.
 
-  Thanks for stopping by. You can check out some of my [company](https://qleer.ai) or [connect with me](https://www.linkedin.com/in/valentin-chmara/) if you have something in mind!
+  Thanks for stopping by. You can discover what we're building at [Qleer](https://qleer.ai), explore my writing, or [connect with me on LinkedIn](https://www.linkedin.com/in/valentin-chmara/). Please note that I'm not available for client work or job opportunities.
