@@ -6,9 +6,7 @@ export default defineAppConfig({
         'https://valentinchmara.com/avatar.png',
       alt: 'valentin Chmara'
     },
-    meetingLink: 'https://cal.com/valentinchmara/30min',
-    email: 'valentinchmara@gmail.com',
-    available: false
+    email: 'valentinchmara@gmail.com'
   },
   ui: {
     colors: {

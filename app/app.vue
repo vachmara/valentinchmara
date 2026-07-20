@@ -17,9 +17,9 @@ useHead({
   }
 })
 
-const title = 'Valentin Chmara - Software Engineer'
+const title = 'Valentin Chmara - Co-founder & CTO at Qleer'
 const description
-  = 'Welcome to my website! I\'m a Software Engineer with a passion for building innovative solutions. Explore my portfolio to see my work and get in touch.'
+  = 'I\'m Valentin Chmara, Co-founder and CTO at Qleer. I build AI products, contribute to open source, and share what I learn along the way.'
 
 useSeoMeta({
   title,
